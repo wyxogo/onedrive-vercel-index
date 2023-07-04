@@ -12,6 +12,7 @@ module.exports = {
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
   icon: '/icons/avatar.webp',
+  home: 'https://wyxogo.top/',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
@@ -51,10 +52,6 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
-    {
-      name: 'Blog',
-      link: 'https://wyxogo.top',
-    },
     {
       name: 'GitHub',
       link: 'https://github.com/wyxogo',
