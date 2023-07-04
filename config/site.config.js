@@ -17,7 +17,7 @@ module.exports = {
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Ogo's Drive",
+  title: "Ogo Drive",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
@@ -51,6 +51,10 @@ module.exports = {
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
   // you provide. See the documentation for details.
   links: [
+    {
+      name: 'House',
+      link: 'https://wyxogo.top',
+    },
     {
       name: 'GitHub',
       link: 'https://github.com/wyxogo',
